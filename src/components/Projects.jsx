@@ -8,7 +8,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Asbab E-commerce Website",
       description: "A full-stack e-commerce web application for product browsing, order placement, and efficient product and order management.",
-      image: "src/assets/images/ecommerce-website1.png",
+      image: "public/images/ecommerce-website1.png",
       gradient: "from-blue-600/20 to-purple-600/20",
       darkGradient: "from-blue-600/10 to-purple-600/10",
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js","MySQL"],
@@ -19,7 +19,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Rajshahi District Portal App",
       description: "A full-stack mobile application that provides comprehensive information about the Rajshahi district of Bangladesh, including hospitals, educational institutions, and other essential services.",
-      image: "src/assets/images/rajshahi-district-portal1.png",
+      image: "public/images/rajshahi-district-portal1.png",
       gradient: "from-sky-500/20 to-blue-500/20",
       darkGradient: "from-sky-500/10 to-blue-500/10",
       tags: ["React Native", "Node.js","MongoDB"],
@@ -30,7 +30,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Exam App",
       description: "A full-stack  web application for creating, taking, giving MCQ exam. This is helful for teachers and students.",
-      image: "src/assets/images/examapp1.png",
+      image: "public/images/examapp1.png",
       gradient: "from-violet-500/20 to-indigo-500/20",
       darkGradient: "from-violet-500/10 to-indigo-500/10",
       tags: ["React","TailwindCSS","Flask","PostgreSQL"],
@@ -41,7 +41,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Heart Disease Prediction",
       description: "A machine learning model that predicts heart disease of a person based on some features",
-      image: "src/assets/images/heart-disease-prediction1.png",
+      image: "public/images/heart-disease-prediction1.png",
       gradient: "from-emerald-500/20 to-cyan-500/20",
       darkGradient: "from-emerald-500/10 to-cyan-500/10",
       tags: ["Python","NumPy","Seaborn","Scikit-learn","ML"],

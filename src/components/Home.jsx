@@ -208,7 +208,7 @@ const Home = ({ isDarkMode, toggleDarkMode }) => {
                   isDarkMode ? 'border-gray-800' : 'border-white'
                 }`}>
                   <img
-                    src="src/assets/images/rounded_nissan.png"
+                    src="public/images/rounded_nissan.png"
                     alt="Md. Nissan Ali"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />
