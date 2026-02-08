@@ -11,6 +11,7 @@ import {
   UserCheck,
   Rocket
 } from 'lucide-react';
+import profile_image from '../../public/images/rounded_nissan.png'
 
 const Home = ({ isDarkMode, toggleDarkMode }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -208,7 +209,7 @@ const Home = ({ isDarkMode, toggleDarkMode }) => {
                   isDarkMode ? 'border-gray-800' : 'border-white'
                 }`}>
                   <img
-                    src="public/images/rounded_nissan.png"
+                    src= {profile_image}
                     alt="Md. Nissan Ali"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />
