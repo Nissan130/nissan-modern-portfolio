@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { ExternalLink, Github, Star, Eye, ArrowRight, Zap, FolderGit2, Globe } from 'lucide-react';
+import ecommerce_web_img from '../../public/images/ecommerce-website1.png'
+import exampapp_img from '../../public/images/examapp1.png'
+import heart_disease_img from '../../public/images/heart-disease-prediction1.png'
+import rajshahi_district_portal_img from '../../public/images/rajshahi-district-portal1.png'
 
 const Projects = ({ isDarkMode, toggleDarkMode }) => {
   const [hoveredProject, setHoveredProject] = useState(null);
@@ -8,7 +12,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Asbab E-commerce Website",
       description: "A full-stack e-commerce web application for product browsing, order placement, and efficient product and order management.",
-      image: "public/images/ecommerce-website1.png",
+      image: ecommerce_web_img,
       gradient: "from-blue-600/20 to-purple-600/20",
       darkGradient: "from-blue-600/10 to-purple-600/10",
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js","MySQL"],
@@ -19,7 +23,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Rajshahi District Portal App",
       description: "A full-stack mobile application that provides comprehensive information about the Rajshahi district of Bangladesh, including hospitals, educational institutions, and other essential services.",
-      image: "public/images/rajshahi-district-portal1.png",
+      image: rajshahi_district_portal_img,
       gradient: "from-sky-500/20 to-blue-500/20",
       darkGradient: "from-sky-500/10 to-blue-500/10",
       tags: ["React Native", "Node.js","MongoDB"],
@@ -30,7 +34,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Exam App",
       description: "A full-stack  web application for creating, taking, giving MCQ exam. This is helful for teachers and students.",
-      image: "public/images/examapp1.png",
+      image: exampapp_img,
       gradient: "from-violet-500/20 to-indigo-500/20",
       darkGradient: "from-violet-500/10 to-indigo-500/10",
       tags: ["React","TailwindCSS","Flask","PostgreSQL"],
@@ -41,7 +45,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     {
       title: "Heart Disease Prediction",
       description: "A machine learning model that predicts heart disease of a person based on some features",
-      image: "public/images/heart-disease-prediction1.png",
+      image: heart_disease_img,
       gradient: "from-emerald-500/20 to-cyan-500/20",
       darkGradient: "from-emerald-500/10 to-cyan-500/10",
       tags: ["Python","NumPy","Seaborn","Scikit-learn","ML"],
