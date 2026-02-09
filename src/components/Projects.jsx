@@ -32,8 +32,8 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
       featured: true
     },
     {
-      title: "Exam App",
-      description: "A full-stack  web application for creating, taking, giving MCQ exam. This is helful for teachers and students.",
+      title: "ExamPro Web App",
+      description: "A full-stack web application that enables teachers to create and manage MCQ-based exams while allowing students to take exams and receive results efficiently.",
       image: exampapp_img,
       gradient: "from-violet-500/20 to-indigo-500/20",
       darkGradient: "from-violet-500/10 to-indigo-500/10",
@@ -44,7 +44,7 @@ const Projects = ({ isDarkMode, toggleDarkMode }) => {
     },
     {
       title: "Heart Disease Prediction",
-      description: "A machine learning model that predicts heart disease of a person based on some features",
+      description: "Developed a machine learning model to predict heart disease risk using patient health features, supporting early diagnosis and decision-making.",
       image: heart_disease_img,
       gradient: "from-emerald-500/20 to-cyan-500/20",
       darkGradient: "from-emerald-500/10 to-cyan-500/10",
